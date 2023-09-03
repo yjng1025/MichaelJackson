@@ -1,0 +1,231 @@
+<html>
+<head>
+
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width">
+<title>Michael Jackson</title>
+<link rel="stylesheet" type="text/css" href="styles.css"></link>
+
+
+<style> 
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li{
+padding-left:25px 
+}
+
+body{
+background-color: white
+}
+
+#homepage {
+  width: 100%;
+  height: 250px;
+  background-image: url("mj1 2.png");
+  background-size: 100% 100%;
+  animation: myimg 5s infinite;
+text-align: center;
+}
+
+@keyframes myimg {
+text-align: center;
+0%{background-image: url("mj1 2.png");}
+25%{background-image: url("mj2 2.png");}
+50%{background-image: url("mj3 2.png");}
+75%{background-image: url("mj4 2.png");}
+100%{background-image: url("mj5 2.png");}
+}
+}
+
+/* Header/Blog Title */
+.header {
+width: 100%;
+height: 100%;
+text-align: center;
+
+}
+
+.header h1 {
+  font-size: 50px;
+  width: 100%;
+  height: 100%;
+background: rgba(255, 255, 255, 0.5);
+padding-top: 45px;
+
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+ 
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.container {
+
+  position: relative;
+ 
+ 
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 95px;
+  left: 45px;
+
+}
+
+.top-left {
+  position: absolute;
+  top: 32px;
+  left: 45px;
+ color: gold;
+font-size: 40px;
+
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#overflowTest1 {
+  color: gold;
+  width: 400px;
+  height: 100px;
+  overflow: visible;
+font-weight:1000;
+
+}
+
+#overflowTest2 {
+  color: white;
+  width: 400px;
+  height: 100px;
+  overflow: visible;
+font-size: 25px;
+
+}
+
+
+#overflowTest3 {
+  color: white;
+  width: 400px;
+  height: 100px;
+  overflow: visible;
+font-size: 17px;
+
+#overflowTest4 {
+  color: gold;
+  width: 400px;
+  height: 100px;
+  overflow: visible;
+font-size: 10px;
+font-weight:200;
+
+</style>
+</head>
+<body>
+
+<div class="row">
+<div class="header">
+<div id="homepage">
+<h1><img src="45 degrees.png" width="90">Michael Jackson</h1>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="topnav" >
+<img src="45 degrees.png" width="50" style="float:left">
+<a href="逝世与纪念.html" target="_blank" style="float:right">逝世与纪念</a>
+<a href="纠纷与争议.html" style="float:right">纠纷与争议</a>
+<a href="传承与影响.html" style="float:right">传承与影响</a>
+<a href="作品.html" style="float:right">作品</a>
+<a href="生平.html" style="float:right">生平</a>
+</div>
+</div>
+
+
+<div class="card">
+<div class="container">
+  <img src="mj3 inversed2.png" style="width: 100%;" >
+  <div class="bottom-left"><div id="overflowTest3">媒体常尊称杰森为“流行音乐之王”。每日电讯报的作者汤姆·厄特利于2003年称杰森是一位“天才”并且“极度重要”。他的音乐和人道主义贡献对全世界的年轻一代有着“无与伦比”的影响。</div></div>
+
+  <div class="top-left">
+<div id="overflowTest1">流行乐之王————— 迈克尔·杰克逊</div>
+<p><div id="overflowTest2">美国歌手、词曲作家、唱片制作人、舞者、演员、慈善家。被尊称为“流行乐之王”（King of Pop）。迈克尔·杰克逊在音乐、舞蹈、时尚方面的巨大贡献，加上备受关注的个人生活，使他成为全球流行文化的代表人物。</div></p>
+</div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
